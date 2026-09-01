@@ -4,4 +4,3 @@ Site de demonstração da Lanna Pizza — pizzaria artesanal e delivery em Santa
 
 🔗 **Demo ao vivo:** https://lanna-pizza.vercel.app
 
-Este repositório é só a versão pública de demonstração — não inclui integrações de backend nem credenciais.
