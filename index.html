@@ -2891,7 +2891,7 @@
       let animationId = 0;
       let finished = false;
 
-      const frameSource = (index) => encodeURI(`Animação Pizza falling/Pizza_box_with_Lanna_Pizza_202608011416_${String(index).padStart(3, '0')}.jpg`);
+      const frameSource = (index) => `assets/intro/f${String(index).padStart(3, '0')}.webp`;
       const setProgress = () => loader?.style.setProperty('--intro-progress', `${Math.round((loaded / totalFrames) * 100)}%`);
       const loadFrame = (index) => new Promise((resolve) => {
         const image = new Image();
